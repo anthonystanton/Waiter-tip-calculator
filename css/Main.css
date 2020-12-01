@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(to left, blue, white);
+    font-family: Arial;
+}
+
+#container {
+    height: 550px;
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 20px;
+    
+    background: white;
+}
+
+h1 {
+    color: white;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 1.5em;
+    background: black;
+}
+p {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 1.2em;
+}
+form input[type="text"] {
+    width: 90px;
+}
+input {
+    padding-left: 20px;
+}
+#billAmount, #peopleAmount {
+    font-size: 0.8em;
+    color: grey;
+    width: 40%;
+    border: 1px solid grey;
+    padding: 4px;
+}
+#billAmount:focus {
+    background: #fff;
+    border: 2px solid grey;
+}
+#serviceQuality {
+    border: 1px solid black;
+}
+button {
+    margin: 30px auto;
+    height: 40px;
+    width: 150px;
+    display: block;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+button:hover {
+    background: blue;
+    color: white;
+}
+#totalTip{
+    font-size: 1.9em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#totalTip:before {
+    content: "Tip amount";
+    display: block;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+#totalTip small {
+    font-size: 0.8em;
+    font-weight: bold;
+}
